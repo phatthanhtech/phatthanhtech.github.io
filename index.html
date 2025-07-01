@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Công Ty TNHH Cơ Khí & Công Nghệ Phát Thành</title>
+  <title>Phát Thành Tech - Thiết Bị Cơ Khí</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Công Ty TNHH Cơ Khí & Công Nghệ Phát Thành</h1>
-    <p>Chuyên cung cấp thiết bị cơ khí & giải pháp công nghệ</p>
+    <div class="container">
+      <h1>Phát Thành Tech</h1>
+      <p>Chuyên cung cấp tủ đồ nghề & giải pháp cơ khí</p>
+    </div>
   </header>
 
   <nav>
@@ -22,47 +24,46 @@
     </ul>
   </nav>
 
-  <section id="home">
-    <h2>Chào mừng đến với Phát Thành Tech</h2>
-    <p>Chúng tôi cung cấp các giải pháp cơ khí và thiết bị chất lượng cao với giá cạnh tranh.</p>
+  <section id="products" class="container">
+    <h2>Sản phẩm nổi bật</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/product1.jpg" alt="Tủ đồ nghề vàng" />
+        <h3>Tủ đồ nghề có bảng treo</h3>
+        <p>Thiết kế dạng xe đẩy, ngăn kéo lớn, bảng treo phía sau.</p>
+        <p class="price">11.000.000 VNĐ</p>
+        <a class="btn" href="tel:0905177737">Gọi mua hàng</a>
+      </div>
+      <div class="card">
+        <img src="images/product2.jpg" alt="Tủ đồ nghề đỏ" />
+        <h3>Tủ đồ nghề loại thấp</h3>
+        <p>Tủ kéo 3 ngăn, màu đỏ đen mạnh mẽ, có khay bên hông.</p>
+        <p class="price">6.000.000 VNĐ</p>
+        <a class="btn" href="tel:0905177737">Gọi mua hàng</a>
+      </div>
+      <div class="card">
+        <img src="images/product3.jpg" alt="Thùng nhựa công nghiệp" />
+        <h3>Thùng nhựa công nghiệp</h3>
+        <p>Thùng nhựa cao cấp, kích thước lớn, siêu bền.</p>
+        <p class="price">200.000 VNĐ / cái</p>
+        <a class="btn" href="tel:0905177737">Gọi mua hàng</a>
+      </div>
+    </div>
   </section>
 
-  <section id="products">
-    <h2>Sản phẩm</h2>
-    <div class="product">
-      <img src="images/product1.jpg" alt="Tủ đồ nghề vàng" />
-      <h3>Tủ đồ nghề cơ khí – loại có bảng treo</h3>
-      <p>Thiết kế dạng xe đẩy, nhiều ngăn kéo, bảng treo dụng cụ phía sau, màu vàng đen hiện đại</p>
-      <p class="price">11.000.000 VNĐ</p>
-    </div>
-    <div class="product">
-      <img src="images/product2.jpg" alt="Tủ đồ nghề đỏ" />
-      <h3>Tủ đồ nghề cơ khí – loại thấp</h3>
-      <p>Tủ kéo tay, 3 ngăn kéo lớn, có ngăn khóa và khay bên hông, màu đỏ đen mạnh mẽ</p>
-      <p class="price">6.000.000 VNĐ</p>
-    </div>
-    <div class="product">
-      <img src="images/product3.jpg" alt="Thùng nhựa công nghiệp" />
-      <h3>Thùng nhựa công nghiệp</h3>
-      <p>Thùng nhựa cao cấp dùng trong sản xuất, nông nghiệp, kích thước lớn, độ bền cao</p>
-      <p class="price">200.000 VNĐ / cái</p>
-    </div>
-  </section>
-
-  <section id="about">
+  <section id="about" class="container">
     <h2>Giới thiệu công ty</h2>
-    <p>Công Ty TNHH Cơ Khí & Công Nghệ Phát Thành chuyên cung cấp thiết bị cơ khí, tủ đồ nghề, và giải pháp công nghệ cho ngành công nghiệp và sản xuất. Chúng tôi cam kết đem đến sản phẩm chất lượng cao, giá thành hợp lý và dịch vụ tận tâm.</p>
+    <p>Công Ty TNHH Cơ Khí & Công Nghệ Phát Thành chuyên cung cấp tủ đồ nghề, thiết bị cơ khí và giải pháp công nghệ trong ngành công nghiệp. Cam kết sản phẩm chất lượng, giá hợp lý và phục vụ tận tâm.</p>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="container">
     <h2>Liên hệ</h2>
     <p><strong>Địa chỉ:</strong> 461/3 Đường Tỉnh 826C, Ấp 2/5, Xã Cần Giuộc, Tỉnh Tây Ninh</p>
-    <p><strong>Số điện thoại:</strong> 0905 177 737</p>
-    <p><strong>Email:</strong> (chưa cập nhật)</p>
+    <p><strong>Điện thoại:</strong> <a href="tel:0905177737">0905 177 737</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Phat Thanh Tech. All rights reserved.</p>
+    <p>&copy; 2025 Phát Thành Tech. All rights reserved.</p>
   </footer>
 </body>
 </html>
