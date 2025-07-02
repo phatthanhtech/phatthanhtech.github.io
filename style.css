@@ -13,7 +13,16 @@ header {
   background: #014F86;
   color: #fff;
   padding: 20px 0;
-  text-align: center;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
 }
 nav {
   background: #FFA500;
@@ -52,6 +61,7 @@ nav ul li a {
   max-height: 180px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 .card h3 {
   margin: 10px 0 5px;
